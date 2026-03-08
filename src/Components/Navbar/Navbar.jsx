@@ -73,9 +73,9 @@ function Navbar() {
               offset={-260}
               duration={500}
               onClick={() => setMobileMenu(false)}
-              className="bg-white text-[#212121] px-8 py-3 rounded-full font-semibold cursor-pointer hover:bg-gray-100 transition-all inline-block"
+              className="bg-white text-[#212121] px-8 py-3 rounded-full font-semibold cursor-pointer hover:bg-gray-100 transition-all inline-block shadow-md"
             >
-              Contact Us
+              Get In Touch
             </Link>
           </li>
         </ul>

@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-scroll";
 const about_img = "/assets/about.png";
 const play_icon = "/assets/play-icon.png";
 
@@ -40,6 +40,15 @@ const About = () => {
           pathway to achieve your goals and unlock your full potential in
           shaping the future of education.
         </p>
+        <Link
+          to="program"
+          smooth={true}
+          offset={-260}
+          duration={500}
+          className="bg-[#212EA0] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#1a2480] transition-all shadow-md mt-4 cursor-pointer inline-block"
+        >
+          View Our Programs
+        </Link>
       </div>
     </div>
   );

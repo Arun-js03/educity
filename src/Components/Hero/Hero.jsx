@@ -18,8 +18,8 @@ function Hero() {
           publishing software like Aldus PageMaker including versions of Lorem
           Ipsum.
         </p>
-        <button className="btn bg-white text-[#212121] py-[14px] px-[25px] text-base">
-          Explore More <img src={dark_arrow} alt="" className="ml-[10px] w-5" />
+        <button className="btn bg-white text-[#212121] py-[14px] px-[25px] text-base rounded-full hover:bg-gray-100 transition-all font-semibold shadow-md inline-flex items-center">
+          Find Your Path <img src={dark_arrow} alt="" className="ml-[10px] w-5" />
         </button>
       </div>
     </div>

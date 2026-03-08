@@ -64,9 +64,9 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className="btn dark-btn px-[25px] py-[14px] text-base"
+            className="btn bg-[#212EA0] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#1a2480] transition-all shadow-md inline-flex items-center"
           >
-            Submit Now{" "}
+            Send Message Now{" "}
             <img src={white_arrow} alt="" className="ml-[10px] w-5" />
           </button>
         </form>
