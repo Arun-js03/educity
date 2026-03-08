@@ -47,7 +47,9 @@ function Navbar() {
                         ? "program"
                         : item.toLowerCase().replace(" ", "") === "testimonials"
                           ? "testimonials"
-                          : item.toLowerCase().replace(" ", "")
+                          : item.toLowerCase().replace(" ", "") === "aboutus"
+                            ? "about"
+                            : item.toLowerCase().replace(" ", "")
                   }
                   spy={true}
                   smooth={true}

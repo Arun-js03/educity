@@ -27,7 +27,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="my-20 mx-auto px-10 md:px-20 relative">
+    <div className="my-20 mx-auto px-10 md:px-20 relative" id="testimonials">
       {/* Navigation Buttons */}
       <img
         src={next_icon}

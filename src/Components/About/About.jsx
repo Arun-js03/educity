@@ -30,7 +30,7 @@ const About = () => {
           experiences needed to excel in the dynamic field of education.{" "}
         </p>
         <p className="text-[#676767] mb-[15px]">
-          With a focus on innovation, hands-on learning, and personaliz
+          With a focus on innovation, hands-on learning, and personalized
           mentorship, our programs prepare aspiring educators to make a
           meaningful impact in classrooms, schools, and communities.
         </p>
